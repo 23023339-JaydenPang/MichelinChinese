@@ -62,3 +62,13 @@ footer {
     margin-top: 2rem;
     font-size: 1rem;
 }
+
+.dish-img {
+    width: 100%;
+    max-width: 350px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(179,18,23,0.12);
+}
