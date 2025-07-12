@@ -1,0 +1,64 @@
+body {
+    background: url('https://www.transparenttextures.com/patterns/asfalt-light.png'), #fff8f0;
+    color: #6b2c13;
+    font-family: 'Noto Serif SC', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #b31217 0%, #ffb400 100%);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    position: relative;
+}
+
+.chinese-header {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+.divider {
+    width: 120px;
+    height: 8px;
+    margin: 1rem auto;
+    background: url('https://i.imgur.com/2yYayZk.png') no-repeat center;
+    background-size: contain;
+}
+
+.restaurant-card {
+    background: #fff;
+    border: 2px solid #b31217;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(179,18,23,0.08);
+    margin: 1.5rem auto;
+    max-width: 400px;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.restaurant-card::before {
+    content: "🀄";
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 1.5rem;
+    opacity: 0.2;
+}
+
+#chatbot {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+footer {
+    background: #b31217;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
