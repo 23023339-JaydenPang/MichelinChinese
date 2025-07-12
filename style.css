@@ -38,6 +38,7 @@ header {
     max-width: 400px;
     padding: 1.5rem;
     position: relative;
+    overflow: hidden; /* Ensures images and content stay inside the border */
 }
 
 .restaurant-card::before {
@@ -71,4 +72,5 @@ footer {
     border-radius: 8px;
     margin-bottom: 1rem;
     box-shadow: 0 2px 8px rgba(179,18,23,0.12);
+    display: block;
 }
